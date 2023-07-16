@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+ 
+body {
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    height: 430px;
+    margin: 250px auto auto auto;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px hsl(32, 21%, 76%) ;
+}
+
+.image{
+    margin: 0 auto auto auto;
+    
+}
+
+.product {
+    width: 300px;
+    height: 430px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.context {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.whole {
+    padding: 20px 30px 30px 30px;
+}
+
+.name {
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    margin-right:  20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.prices {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    line-height: 1;
+    color:hsl(212, 21%, 14%) ;
+    font-weight: 700;
+}
+
+.perf {
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    border: 0 solid hsl(158, 36%, 37%);
+    width: 240px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sale {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin: 34px 0;
+}
+
+.icon {
+    background-color: transparent;
+    width: 15px;
+    margin-right: 10px;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+  
+}
+
+.btns {
+    position: relative;
+}
+  
+.attribution {
+    margin-top: 40px;
+}
+
+
+.btn:hover {
+    background-color: hsl(158, 36%, 22%);
+}
